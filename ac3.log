@@ -1,0 +1,20 @@
+2020-10-28T19:26:23.432514+00:00 app[api]: Initial release by user cristianlucas180@gmail.com
+2020-10-28T19:26:23.432514+00:00 app[api]: Release v1 created by user cristianlucas180@gmail.com
+2020-10-28T19:26:23.876770+00:00 app[api]: Enable Logplex by user cristianlucas180@gmail.com
+2020-10-28T19:26:23.876770+00:00 app[api]: Release v2 created by user cristianlucas180@gmail.com
+2020-10-28T19:26:53.000000+00:00 app[api]: Build started by user cristianlucas180@gmail.com
+2020-10-28T19:27:19.006327+00:00 app[api]: Release v3 created by user cristianlucas180@gmail.com
+2020-10-28T19:27:19.006327+00:00 app[api]: Deploy 25e74d24 by user cristianlucas180@gmail.com
+2020-10-28T19:27:19.018479+00:00 app[api]: Scaled to web@1:Free by user cristianlucas180@gmail.com
+2020-10-28T19:27:22.626941+00:00 heroku[web.1]: Starting process with command `python t9.py`
+2020-10-28T19:27:25.162397+00:00 app[web.1]: python: can't open file 't9.py': [Errno 2] No such file or directory
+2020-10-28T19:27:25.220598+00:00 heroku[web.1]: Process exited with status 2
+2020-10-28T19:27:25.267776+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-28T19:27:25.272295+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-28T19:27:27.000000+00:00 app[api]: Build succeeded
+2020-10-28T19:27:29.011457+00:00 heroku[web.1]: Starting process with command `python t9.py`
+2020-10-28T19:27:31.717229+00:00 app[web.1]: python: can't open file 't9.py': [Errno 2] No such file or directory
+2020-10-28T19:27:31.805142+00:00 heroku[web.1]: Process exited with status 2
+2020-10-28T19:27:31.871158+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-28T19:27:47.152599+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=shielded-basin-97903.herokuapp.com request_id=ba844f94-a03c-4d5a-b120-8a28027f45b8 fwd="168.227.12.98" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-28T19:27:47.495967+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=shielded-basin-97903.herokuapp.com request_id=1a33aae3-e8ad-4753-92a7-eb1664277c6e fwd="168.227.12.98" dyno= connect= service= status=503 bytes= protocol=https
